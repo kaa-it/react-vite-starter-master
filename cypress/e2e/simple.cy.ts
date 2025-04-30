@@ -3,8 +3,8 @@
 import { add } from '@utils/utils.ts';
 
 describe('template spec', () => {
-  it('passes', () => {
-    cy.visit('/');
-	const res = add("a", "b");
-  })
-})
+	it('passes', () => {
+		cy.visit('/');
+		const res = add('a', 'b');
+	});
+});
