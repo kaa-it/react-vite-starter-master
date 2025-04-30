@@ -26,6 +26,11 @@ export const BurgerIngredients = ({
 						Соусы
 					</Tab>
 				</ul>
+				<div
+					style={{ height: '600px', overflowY: 'scroll' }}
+					className='custom-scroll'>
+					<div style={{ height: '6000px', backgroundColor: 'green' }}></div>
+				</div>
 			</nav>
 		</section>
 	);
