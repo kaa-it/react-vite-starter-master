@@ -4,14 +4,12 @@ import { ingredients } from '@utils/ingredients.ts';
 import { BurgerIngredients } from '@components/burger-ingredients/burger-ingredients.tsx';
 import { BurgerConstructor } from '@components/burger-contructor/burger-constructor.tsx';
 import { AppHeader } from '@components/app-header/app-header.tsx';
-import { Route, Routes, useParams } from "react-router-dom";
+import { Route, Routes, useParams } from 'react-router-dom';
 
 const Test = () => {
 	const { id } = useParams();
 
-	return (
-		<h1>{id}</h1>
-	)
+	return <h1>{id}</h1>;
 };
 
 export const App = (): React.JSX.Element => {
@@ -39,5 +37,3 @@ export const App = (): React.JSX.Element => {
 		</div>
 	);
 };
-
-export default App;
